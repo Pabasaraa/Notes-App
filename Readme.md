@@ -26,8 +26,8 @@ Make sure you have the following tools installed:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-project-name.git
-cd your-project-name
+git clone [https://github.com/your-username/your-project-name.git](https://github.com/Pabasaraa/Notes-App)
+cd Note-App
 ```
 
 ### Backend Setup (Node.js, Express)
@@ -46,7 +46,7 @@ cd your-project-name
 
 4. Start the backend server:
    `bash
-    npm start
+    node start
     `
    This will start the Express server, and it will be available at `http://localhost:5000` (or whatever port you have configured in `.env`).
 
@@ -72,12 +72,12 @@ cd your-project-name
 
 After following the setup steps for both the backend and frontend:
 
-1. Start the backend server (`npm start` inside the backend folder).
+1. Start the backend server (`node start` inside the backend folder).
 2. Start the frontend server (`npm run dev` inside the frontend folder).
 
 The application will be available at:
 
-- Frontend: `http://localhost:3000`
+- Frontend: `http://localhost:5173`
 - Backend: `http://localhost:5000`
 
 Make sure the frontend is correctly connected to the backend, and you should be able to interact with the application.
@@ -86,6 +86,6 @@ Make sure the frontend is correctly connected to the backend, and you should be 
 
 Here are some screenshots of the application:
 
-### Frontend
+![eb5e1ef3-1526-4aee-84b8-d2675fd79137](https://github.com/user-attachments/assets/329ba9d1-fecf-4e46-88dd-c96e48e22e34)
 
-### Backend
+![ea5588f0-529a-489c-8ba1-35c16665a32d](https://github.com/user-attachments/assets/e75ab306-b351-45bc-bf4f-da8b34c89619)
