@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-base: 248, 246, 242;
+  --secondary-base: 236, 230, 219;
+  --primary-accent: 26, 19, 11;
+  --call-to-action: 67, 136, 67;
+  --primary-text-dark: 51, 51, 51;
+  --primary-text-light: 255, 255, 255;
+
+  --background: #f5f5f5;
+  --text-primary: #121212;
+  --text-secondary: rgba(0, 0, 0, 0.7);
+  --text-disabled: rgba(0, 0, 0, 0.5);
+  --divider: rgba(0, 0, 0, 0.12);
+
+  --neutral-0: #f7f8f9;
+  --neutral-100: #f1f2f4;
+  --neutral-200: #dcdfe4;
+  --neutral-250: #b3b9c4;
+  --neutral-300: #38414a;
+  --neutral-350: #b3b9c4;
+  --neutral-400: #8590a2;
+  --neutral-500: #091e427d;
+  --neutral-600: #758195;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121212;
+    --text-primary: #fff;
+    --text-secondary: rgba(255, 255, 255, 0.6);
+    --text-disabled: rgba(255, 255, 255, 0.4);
+    --divider: rgba(255, 255, 255, 0.12);
+
+    --neutral-0: #161a1d;
+    --neutral-100: #1d2125;
+    --neutral-200: #22272b;
+    --neutral-250: #282e33;
+    --neutral-300: #2c333a;
+    --neutral-350: #38414a;
+    --neutral-400: #454f59;
+    --neutral-500: #596773;
+    --neutral-600: #738496;
+  }
+}
+
+body {
+  min-height: 100svh;
+  color: rgb(var(--primary-text-dark));
+  background: rgb(var(--primary-base));
+}
+
+/* @layer base {
+    body {
+      @apply bg-background text-textPrimary;
+    }
+  } */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
