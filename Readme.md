@@ -26,26 +26,26 @@ Make sure you have the following tools installed:
 Clone the repository to your local machine:
 
 ```bash
-git clone [https://github.com/your-username/your-project-name.git](https://github.com/Pabasaraa/Notes-App)
+git clone https://github.com/your-username/your-project-name.git
 cd Note-App
 ```
 
 ### Backend Setup (Node.js, Express)
 
 1. Navigate to the backend folder:
-   `bash
+   `
     cd backend
     `
 
 2. Install the required dependencies:
-   `bash
+   `
     npm install
     `
 
-3. Configure environment variables: - Create a `.env` file in the backend folder with necessary environment variables (PORT, MONGO_URL).
+3. Configure environment variables: - Create a `.env` file in the backend folder with the necessary environment variables (PORT, MONGO_URL).
 
 4. Start the backend server:
-   `bash
+   `
     node start
     `
    This will start the Express server, and it will be available at `http://localhost:5000` (or whatever port you have configured in `.env`).
@@ -53,20 +53,20 @@ cd Note-App
 ### Frontend Setup (Vite, React)
 
 1. Navigate to the frontend folder:
-   `bash
+   `
     cd frontend
     `
 
 2. Install the required dependencies:
-   `bash
+   `
     npm install
     `
 
 3. Start the Vite development server:
-   `bash
+   `
     npm run dev
     `
-   This will start the Vite development server, and it will be available at `http://localhost:3000`.
+   This will start the Vite development server, and it will be available at `http://localhost:5173`.
 
 ## Running the Application
 
